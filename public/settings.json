@@ -1,0 +1,77 @@
+{
+  // "vetur.format.defaultFormatter.js": "vscode-typescript", //格式化js
+  // "vetur.format.defaultFormatter.html": "js-beautify-html", //格式化html
+  "vetur.validation.template": true,
+  "vetur.validation.script": true,
+  "terminal.integrated.shell.windows": "C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\powershell.exe", // terminal 类型
+  "terminal.integrated.fontSize": 12, //terminal 字体
+  "auto-rename-tag.activationOnLanguage": [ //自动闭合标签的类型
+    "html",
+    "vue",
+    "php",
+    "javascript"
+  ],
+  "files.associations": {
+    "*.vue": "vue"
+  },
+  "eslint.options": {
+    "extensions": [
+      ".js",
+      ".vue"
+    ]
+  },
+  "git.ignoreMissingGitWarning": true,
+  "editor.detectIndentation": false,
+  "editor.tabSize": 2,
+  "breadcrumbs.enabled": true,
+  "search.followSymlinks": false,
+  "gitlens.currentLine.enabled": false,
+  "git.allowForcePush": true,
+  "git.alwaysShowStagedChangesResourceGroup": true,
+  "git.alwaysSignOff": true,
+  "git.autofetch": true,
+  "git.autorefresh": false,
+  "git.enabled": false,
+  "zenMode.restore": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+  "fileheader.configObj": {
+    "autoAdd": true, // 自动添加头部注释开启才能自动添加
+    // "autoAlready": true, // 默认开启
+    "language": {
+      "vue": {
+        "head": "/*",
+        "middle": " * @",
+        "end": "*/"
+      }
+    }
+  },
+  "fileheader.customMade": {
+    "Author": "web.王晓冬", //作者
+    "Date": "Do not edit", //创建时间
+    "LastEditors": "web.王晓冬", //修改人
+    "LastEditTime": "Do not edit", //修改时间
+    "Description": "file content" //描述
+  },
+  "terminal.integrated.rendererType": "dom",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": true,
+  "editor.wordWrap": "on",
+  "todo-tree.tree.showScanModeButton": false,
+  "gitlens.advanced.messages": {
+    "suppressGitDisabledWarning": true
+  },
+  "workbench.colorTheme": "Atom One Dark",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    "**/.classpath": true,
+    "**/.project": true,
+    "**/.settings": true,
+    "**/.factorypath": true
+  },
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  }
+}

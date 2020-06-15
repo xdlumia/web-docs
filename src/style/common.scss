@@ -1,0 +1,45 @@
+body {
+  color: #333;
+}
+
+code {
+  font: normal 14px Consolas, Monaco, monospace !important;
+  line-height: 24px;
+}
+
+.el-main {
+  padding: 10px !important
+}
+
+.hljs {
+  border-radius: 5px;
+}
+
+.main-content {
+  height: calc(100vh - 70px);
+}
+
+
+.side-nav {
+  padding-left: 20px;
+  line-height: 30px;
+  color: #333;
+  cursor: pointer;
+
+  :hover {
+    color: #999;
+  }
+
+  .active {
+    color: #409eff;
+  }
+}
+
+p {
+  line-height: 1.8;
+}
+
+h4 {
+  line-height: 1.8;
+  font-size: 14px
+}
